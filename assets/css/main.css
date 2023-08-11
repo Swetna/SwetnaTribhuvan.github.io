@@ -83,12 +83,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		background: #ffffff;
+		font-family: 'Roboto', sans-serif;
+		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #020202;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -103,8 +103,8 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-family: 'Roboto', sans-serif;
+		font-size: 10pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -237,7 +237,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.container {
-				width: 100%;
+				width: 960px;
 			}
 
 		}
@@ -245,7 +245,7 @@ input, select, textarea {
 		@media screen and (max-width: 960px) {
 
 			.container {
-				width: 100%;
+				width: 960px;
 			}
 
 		}
@@ -253,7 +253,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: 100%;
+				width: 9600px;
 			}
 
 		}
@@ -2107,6 +2107,8 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+			/* margin-left: 10px; */
+
 		}
 
 		#logo p {
@@ -2316,7 +2318,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 17pt;
 			}
 
 			.container {
@@ -2410,7 +2412,7 @@ input, select, textarea {
 			}
 
 			.container {
-				padding: 0 2em 0 2em;
+				padding: 0 3em 0 2em;
 			}
 
 		/* Item */
@@ -2593,7 +2595,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 15pt;
 			}
 
 			h2 {
